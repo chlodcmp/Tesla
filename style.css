@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/background.jpg");
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png");
     background-size: 100%;
 }
 
@@ -60,7 +60,7 @@ nav img:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 160px;
+    padding-top: 176px;
     gap: 8px;
 }
 
@@ -93,12 +93,44 @@ main a:hover {
     cursor: pointer;
 }
 
-#CTA_Order {
+.CTA_Order {
     text-decoration: none;
+    width: 264px;
+    height: 40px;
     font-family: 'Arial', sans-serif;
     font-size: 14px;
-    color: #393c41;
+    color: #000000;
     padding: 4px 24px 4px 24px;
-    margin: 24px;
     background-color: white;
+    border-radius: 4px;
+    /* border: none; */
+    text-align: center;
+}
+
+.CTA_Order:hover {
+    background-color: #e2e3e3;
+}
+
+.CTA_Try {
+    text-decoration: none;
+    width: 264px;
+    height: 40px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #eeeeee;
+    padding: 4px 24px 4px 24px;
+    background-color: #222222;
+    border-radius: 4px;
+    /* border: none; */
+    text-align: center;
+}
+
+.CTA_Try:hover {
+    background-color: #393c41;
+}
+
+.CTA {
+    border: red 3px solid;
+    display: flex;
+    text-align: center;
 }
