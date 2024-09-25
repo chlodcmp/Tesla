@@ -1,13 +1,14 @@
 body {
-    background-image: url("images/background.jpeg");
-    background-size: 100%;
+    background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; background-size: cover;
 }
 
 nav {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 240px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
 #logo_Tesla {
@@ -30,6 +31,10 @@ nav a {
     text-align: center;
     padding: 4px 16px;
     cursor: pointer;
+}
+
+.menu_Responsive {
+    display: none;
 }
 
 .liens_navbar {
@@ -60,7 +65,7 @@ nav img:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 104px;
+    padding-top: 72px;
     gap: 8px;
 }
 
@@ -133,6 +138,77 @@ main a:hover {
 
 .CTA {
     text-align: center;
-    margin-top: 360px;
+    margin-top: 344px;
     ;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+@media all and (max-width: 426px) {
+    body {
+        background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png");
+    }
+
+    .logos {
+        display: none;
+    }
+
+    .liens_navbar {
+        display: none;
+    }
+
+    .menu_Responsive {
+        width: 70px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.05);
+        border: none;
+        font-size: 14px;
+        color: #171a20;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    main h1 {
+        font-size: 32px;
+    }
+
+    main h3 {
+        font-size: 18px;
+    }
+
+    .CTA_Order {
+        width: 378px;
+    }
+
+    .CTA_Try {
+        width: 378px;
+    }
+
+    .CTA {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 256px;
+        gap: 16px;
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+    body {
+        background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png");
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 1025px) {
+    body {
+        background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png");
+    }
 }
