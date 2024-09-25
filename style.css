@@ -1,0 +1,104 @@
+body {
+    background-image: url("images/background.jpg");
+    background-size: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 240px;
+}
+
+#logo_Tesla {
+    width: 120px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#logo_Tesla {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 6px 16px 6px 16px;
+    border-radius: 4px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    color: #171a20;
+    size: 14px;
+    text-align: center;
+    padding: 4px 16px;
+    cursor: pointer;
+}
+
+.liens_navbar {
+    padding: 6px 20px 6px 16px;
+    gap: 64px;
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 6px 16px 6px 16px;
+    border-radius: 4px;
+}
+
+.logos img {
+    width: 24px;
+    height: 24px;
+    padding: 4px 4px 4px 4px;
+    cursor: pointer;
+}
+
+nav img:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 4px 4px 4px 4px;
+    border-radius: 4px;
+}
+
+.text_Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 160px;
+    gap: 8px;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    color: #171a20;
+    margin: 0px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #171a20;
+    margin: 0px;
+    text-align: center;
+}
+
+.text_Title a {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #393c41;
+    text-decoration: underline;
+    text-align: center;
+}
+
+main a:hover {
+    color: #171a20;
+    cursor: pointer;
+}
+
+#CTA_Order {
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #393c41;
+    padding: 4px 24px 4px 24px;
+    margin: 24px;
+    background-color: white;
+}
