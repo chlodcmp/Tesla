@@ -142,7 +142,7 @@ main a:hover {
     ;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* -----------------------------------RESPONSIVE - SMARTPHONE------------------------------------------------------------------------------------------------------------------- */
 
 @media all and (max-width: 426px) {
     body {
@@ -197,12 +197,48 @@ main a:hover {
     }
 }
 
-/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------RESPONSIVE - TABLET----------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
     body {
         background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png");
     }
+
+    .logos {
+        display: none;
+    }
+
+    .liens_navbar {
+        display: none;
+    }
+
+    .menu_Responsive {
+        width: 70px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.05);
+        border: none;
+        font-size: 14px;
+        color: #171a20;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .text_Title {
+        padding-top: 64px;
+    }
+
+    .CTA {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        margin-top: 256px;
+    }
+
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
