@@ -34,9 +34,9 @@
     background-size: cover;
 }
 
-.background_4 {
+.background_5 {
     height: 100vh;
-    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-v2.jpg");
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop-v3.png");
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat; 
@@ -197,6 +197,47 @@ main a:hover {
     margin-top: 344px;
     ;
 }
+
+.background_5 .CTA_Try {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 264px;
+    height: 40px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: grey;
+    padding: 4px 24px 4px 24px;
+    background-color: #222222;
+    border: none;
+    text-align: center;
+}
+
+.background_5 .CTA_Try:hover {
+    background-color: rgba(34, 34, 34, 75%);
+    transition-duration: 1s;
+}
+
+.background_5 .CTA_Order {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 264px;
+    height: 40px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: grey;
+    padding: 4px 24px 4px 24px;
+    background-color: #222222;
+    border: none;
+    text-align: center;
+}
+
+.background_5 .CTA_Order:hover {
+    background-color: rgba(34, 34, 34, 75%);
+    transition-duration: 1s;
+}
+
 
 .background_3 .CTA {
     margin-top: 456px;
