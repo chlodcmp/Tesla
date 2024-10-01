@@ -1,7 +1,46 @@
-body {
+.background_1 {
+    height: 100vh;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png");
     background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat; background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.background_2 {
+    height: 100vh;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-LHD-v2.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.background_3 {
+    height: 100vh;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-v2.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.background_4 {
+    height: 100vh;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-v2.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.background_4 {
+    height: 100vh;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-v2.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 nav {
@@ -93,6 +132,23 @@ h3 {
     text-align: center;
 }
 
+.background_4 .text_Title h1 {
+    color: #ffffff;
+}
+
+.h1_section2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    color: #171a20;
+    margin: 0px;
+    text-align: center;
+    padding-top: 88px;
+}
+
+.a_section2 {
+    font-size: 24px;
+}
+
 main a:hover {
     color: #171a20;
     cursor: pointer;
@@ -140,6 +196,14 @@ main a:hover {
     text-align: center;
     margin-top: 344px;
     ;
+}
+
+.background_3 .CTA {
+    margin-top: 456px;
+}
+
+.background_4 .CTA {
+    margin-top: 456px;
 }
 
 /* -----------------------------------RESPONSIVE - SMARTPHONE------------------------------------------------------------------------------------------------------------------- */
@@ -242,9 +306,3 @@ main a:hover {
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-@media screen and (min-width: 1025px) {
-    body {
-        background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png");
-    }
-}
