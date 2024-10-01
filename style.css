@@ -43,6 +43,15 @@
     background-size: cover;
 }
 
+.background_7 {
+    height: 100vh;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-3-Desktop-ROW.png");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -124,6 +133,11 @@ h3 {
     text-align: center;
 }
 
+.background_6 .text_Title h3 {
+    color: #ffffff;
+    size: 14px;
+}
+
 .text_Title a {
     font-family: 'Arial', sans-serif;
     font-size: 14px;
@@ -195,7 +209,6 @@ main a:hover {
 .CTA {
     text-align: center;
     margin-top: 344px;
-    ;
 }
 
 .background_5 .CTA_Try {
@@ -212,6 +225,7 @@ main a:hover {
     border: none;
     text-align: center;
 }
+
 
 .background_5 .CTA_Try:hover {
     background-color: rgba(34, 34, 34, 75%);
@@ -238,12 +252,15 @@ main a:hover {
     transition-duration: 1s;
 }
 
-
 .background_3 .CTA {
     margin-top: 456px;
 }
 
 .background_4 .CTA {
+    margin-top: 456px;
+}
+
+.background_5 .CTA {
     margin-top: 456px;
 }
 
@@ -334,6 +351,7 @@ main a:hover {
     .text_Title {
         padding-top: 64px;
     }
+
 
     .CTA {
         display: flex;
