@@ -1,3 +1,7 @@
+body { 
+    margin: 0; 
+}
+
 .background_1 {
     height: 100vh;
     background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png");
@@ -258,9 +262,6 @@ main a:hover {
 /* -----------------------------------RESPONSIVE - SMARTPHONE------------------------------------------------------------------------------------------------------------------- */
 
 @media all and (max-width: 426px) {
-    body {
-        background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png");
-    }
 
     .logos {
         display: none;
