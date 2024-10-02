@@ -43,15 +43,6 @@
     background-size: cover;
 }
 
-.background_7 {
-    height: 100vh;
-    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-3-Desktop-ROW.png");
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -317,6 +308,19 @@ main a:hover {
         margin-top: 256px;
         gap: 16px;
     }
+
+    .background_3 .CTA {
+        margin-top: 344px;
+    }
+
+    .background_4 .CTA {
+        margin-top: 344px;
+    }
+
+    .background_5 .CTA {
+        margin-top: 344px;
+    }
+
 }
 
 /* ---------------------------------------RESPONSIVE - TABLET----------------------------------------------------------------------------------------------------------------- */
@@ -360,6 +364,18 @@ main a:hover {
         justify-content: center;
         gap: 32px;
         margin-top: 256px;
+    }
+
+    .background_3 .CTA {
+        margin-top: 344px;
+    }
+
+    .background_4 .CTA {
+        margin-top: 344px;
+    }
+    
+    .background_5 .CTA {
+        margin-top: 344px;
     }
 
 }
